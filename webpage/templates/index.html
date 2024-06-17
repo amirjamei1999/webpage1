@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+    </head>
+    <body class="light">
+        <form action="/" method="GET">
+            <div >
+                <h1 class="centered">HI EVERYONE. THIS IS MY WEBPAGE IF YOU WANT TO KNOW ABOUT ME</h1><br>
+            </div>
+            <h3>NAME: AMIR</h3><br>
+            <h3>LAST NAME: JAMEI</h3><br>
+            <h3>BIRTH DATE: 9 MAY 1999</h3><br>
+            <h3>HOLDER OF IELTS WITH OVERALL BANDSCORE OF <strong>6.5</strong> (READING: <strong>6.5</strong>  LISTENING: <strong>6.5</strong> SPEAKING: <strong>6.5</strong> WRITING: <strong>5.5</strong>)</h3><br>
+            <h3>BACHELOR DEGREE IN MECHANICAL ENGINEERING OF BIOSYSTEM</h3><br>
+            <h3>GRADUATED FROM <a href="https://asnrukh.ac.ir">AGRICULTURAL SCIENCES AND NATURAL RESOURCES UNIVERSITY OF KHUZESTAN</a></h3><br>
+            <h3>HOLDER OF CS50X & CS50P & CS50AI CERTIFICATES FROM HARVARD UNIVERSITY</h3><br>
+            <h3>EMAIL: amirjamei78@gmail.com</h3><br>
+            <div class="card text-bg-primary mb-3" style="max-width: 90rem;">
+                <div class="card-header">About me</div>
+                <div class="card-body">
+                    <p>I born in Ahvaz, a city of the khuzestan, one of the provinces of iran. My greatest and most interesting hobby was videogame when i was a child and also football. When i graduated from high school i wanted to go into the career of creating video games. So my goal was to study IT and computer science or computer engineering. But in that time, universities in our cities didn't have these cources and for some personal reasons related to my father i could't study my favourite field. So i was drawn to the mechanical engineering and to be honest after a year i became so attached to it. It was the most difficult field in our univrsity and i was so proud that i had the chance to became a mechanic engineer. My field is mostly about mechanism of any machines, especially agricultural machines like mower, grader, tractors and so on. I don't want to be arrogant but i'm really an expert in my own field. In the last year of my university i spend 2 month as an intern in sugarcane company to complete my apprenticeship in the summer and i was in the mechanical equipment section and also my favourite workshop was related to hydrolic motors and hydrolic pumps. After graduation from university i started to study for the ielts exam and despite the fact that my score isn't really good but i studied hard for this exam and spend nearly two years for that and after getting my certificate i commenced cs50 cources and i took three of them which is cs50x(instruction of computer science and programming), cs50p(python programming), cs50ai(programming related to artificial intelligence). I also want to study abroad and try a new experience in a modern community. wish you luck! </p>
+                </div>
+            </div>
+            <div>
+                <nav>
+                    <ul class="topright">
+                        <li class="badge text-bg-dark"><a href="{{ url_for('project') }}">project</a></list>
+                        <li class="badge text-bg-info"><a href="{{ url_for('movies') }}">movies</a></list>
+                        <li class="badge text-bg-light"><a href="{{ url_for('contact') }}">contact</a></list>
+                    </ul>
+                </nav>
+            </div>
+        </form>
+    </body>
+</html>

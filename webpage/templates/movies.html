@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles3.css') }}">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+        <link href="styles3.css" rel="stylesheet">
+        <title>MOVIES</title>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body class="black">
+      <form action="/movies" method="GET">
+        <h3>this is the list of my favourite movies that i have seen.</h3>
+        <h6><strong>ATTENTION:</strong>THESE ARE JUST BASED ON MY OPINION AND THERE ARE DEFINATELY BETTER MOVIES OTHER THAN THESE AND IT'S JUST ABOUT PREFERENCES.</h6>
+          <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="{{ url_for('static', filename = 'movies.img/seven1995.jpg') }}" class="bd-placeholder-img img-fluid rounded-start" width="100%" height="250" xmlns="http://www.w3.org/2000/svg" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">SE7EN</h5>
+                    <p class="card-text">A serial killer begins murdering people according to the seven deadly sins. Two detectives, one new to the city and the other about to retire, are tasked with apprehending the criminal.</p>
+                    <p class="card-text"><small class="text-muted">RANK: #1</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="{{ url_for('static', filename = 'movies.img/there_will_be_blood.jpg') }}" class="bd-placeholder-img img-fluid rounded-start" width="100%" height="250" xmlns="http://www.w3.org/2000/svg" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">THERE WILL BE BLOOD</h5>
+                    <p class="card-text">Daniel Plainview is a ruthless oil prospector who goes on a relentless pursuit to become the most powerful oil tycoon. For this, he even resorts to manipulating and using his adopted son.</p>
+                    <p class="card-text"><small class="text-muted">RANK: #5</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="topright1">
+              <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="{{ url_for('static', filename = 'movies.img/whiplash1.jpg') }}" class="bd-placeholder-img img-fluid rounded-start" width="100%" height="250" xmlns="http://www.w3.org/2000/svg" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">WHIPLASH</h5>
+                        <p class="card-text">Andrew enrols in a music conservatory to become a drummer. But he is mentored by Terence Fletcher, whose unconventional training methods push him beyond the boundaries of reason and sensibility.</p>
+                        <p class="card-text"><small class="text-muted">RANK: #10</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="topright2">
+              <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="{{ url_for('static', filename = 'movies.img/unforgiven.jpg') }}" class="bd-placeholder-img img-fluid rounded-start" width="100%" height="250" xmlns="http://www.w3.org/2000/svg" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">UNFORGIVEN</h5>
+                        <p class="card-text">A young man by the name of the Schofield Kid pays a visit to an old retired gunfighter with two children with an offer that he cannot refuse.</p>
+                        <p class="card-text"><small class="text-muted">RANK: #7</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="{{ url_for('static', filename = 'movies.img/taxi driver1.jpg') }}" class="bd-placeholder-img img-fluid rounded-start" width="100%" height="250" xmlns="http://www.w3.org/2000/svg" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">TAXI DRIVER</h5>
+                    <p class="card-text">Travis, an ex-marine and Vietnam veteran, works as a taxi driver in New York City. One day, he decides to save an underage prostitute from her pimp in an effort to clean the city of its corruption.</p>
+                    <p class="card-text"><small class="text-muted">RANK: #13</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="{{ url_for('static', filename = 'movies.img/spider1.jpg') }}" class="bd-placeholder-img img-fluid rounded-start" width="100%" height="250" xmlns="http://www.w3.org/2000/svg" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">SPIDER</h5>
+                    <p class="card-text">A disturbed man with schizophrenia, slips back into his childhood where he believes his father has brutally murdered his mother and replaced her with a prostitute.</p>
+                    <p class="card-text"><small class="text-muted">RANK: #14</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="{{ url_for('static', filename = 'movies.img/sling blade.jpg') }}" class="bd-placeholder-img img-fluid rounded-start" width="100%" height="250" xmlns="http://www.w3.org/2000/svg" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">SLING BLADE</h5>
+                    <p class="card-text">Karl Childers, hospitalized since his childhood murder of his mother and her lover, is released to start life anew in a small town. But it's not long before he's on a collision course with his past.</p>
+                    <p class="card-text"><small class="text-muted">RANK: #9</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="topright3">
+              <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="{{ url_for('static', filename = 'movies.img/memento-poster.jpg') }}" class="bd-placeholder-img img-fluid rounded-start" width="100%" height="250" xmlns="http://www.w3.org/2000/svg" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">MEMENTO</h5>
+                        <p class="card-text">Leonard Shelby, an insurance investigator, suffers from anterograde amnesia and uses notes and tattoos to hunt for the man he thinks killed his wife, which is the last thing he remembers.</p>
+                        <p class="card-text"><small class="text-muted">RANK: #4</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="topright4">
+              <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="{{ url_for('static', filename = 'movies.img/prestige.jpg') }}" class="bd-placeholder-img img-fluid rounded-start" width="100%" height="250" xmlns="http://www.w3.org/2000/svg" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">PRESTIGE</h5>
+                        <p class="card-text">Two friends and fellow magicians become bitter enemies after a sudden tragedy. As they devote themselves to this rivalry, they make sacrifices that bring them fame but, with terrible consequences.</p>
+                        <p class="card-text"><small class="text-muted">RANK: #6</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="topright5">
+              <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="{{ url_for('static', filename = 'movies.img/million-dollar-baby.jpg') }}" class="bd-placeholder-img img-fluid rounded-start" width="100%" height="250" xmlns="http://www.w3.org/2000/svg" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">MILLION DOLLAR BABY</h5>
+                        <p class="card-text">Frankie, an ill-tempered old coach, reluctantly agrees to train aspiring boxer Maggie. Impressed with her determination and talent, he helps her become the best and the two soon form a close bond.</p>
+                        <p class="card-text"><small class="text-muted">RANK: #12</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="topright">
+              <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="{{ url_for('static', filename = 'movies.img/birdman.jpg') }}" class="bd-placeholder-img img-fluid rounded-start" width="100%" height="250" xmlns="http://www.w3.org/2000/svg" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">BIRDMAN</h5>
+                        <p class="card-text">Riggan Thomson, a fading cinema star, plans to resurrect his career with a passionate Broadway production. However, during rehearsals, his co-star is injured forcing him to hire a new actor.</p>
+                        <p class="card-text"><small class="text-muted">RANK: #3</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="topright6">
+              <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="{{ url_for('static', filename = 'movies.img/Interstellar_poster.jpg') }}" class="bd-placeholder-img img-fluid rounded-start" width="100%" height="250" xmlns="http://www.w3.org/2000/svg" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">INTERSTELLAR</h5>
+                        <p class="card-text">When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.</p>
+                        <p class="card-text"><small class="text-muted">RANK: #11</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="{{ url_for('static', filename = 'movies.img/training day.jpg') }}" class="bd-placeholder-img img-fluid rounded-start" width="100%" height="250" xmlns="http://www.w3.org/2000/svg" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">TRAINING DAY</h5>
+                    <p class="card-text">A newly recruited police officer spends his first day as a narcotics officer with a detective who is more than what he appears to be.</p>
+                    <p class="card-text"><small class="text-muted">RANK: #8</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="{{ url_for('static', filename = 'movies.img/fight club3.jpg') }}" class="bd-placeholder-img img-fluid rounded-start" width="100%" height="250" xmlns="http://www.w3.org/2000/svg" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">FIGHT CLUB</h5>
+                    <p class="card-text">Unhappy with his capitalistic lifestyle, a white-collared insomniac forms an underground fight club with Tyler, a careless soap salesman. Soon, their venture spirals down into something sinister.</p>
+                    <p class="card-text"><small class="text-muted">RANK: #2</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+    </body>
+</html>
